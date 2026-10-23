@@ -1,0 +1,566 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T16:07:49.121Z",
+  "title": "Design System: 猎潮狂鲨 · 裂渊航次",
+  "extensions": {
+    "colorMeta": {
+      "sea-ink": {
+        "role": "neutral",
+        "displayName": "海墨",
+        "tonalRamp": [
+          "oklch(15% 0.0358 232.06)",
+          "oklch(26% 0.0358 232.06)",
+          "oklch(38% 0.0358 232.06)",
+          "oklch(49% 0.0358 232.06)",
+          "oklch(61% 0.0358 232.06)",
+          "oklch(72% 0.0358 232.06)",
+          "oklch(84% 0.0358 232.06)",
+          "oklch(95% 0.0358 232.06)"
+        ]
+      },
+      "ocean-ground": {
+        "role": "neutral",
+        "displayName": "海域底",
+        "tonalRamp": [
+          "oklch(15% 0.0390 227.56)",
+          "oklch(26% 0.0390 227.56)",
+          "oklch(38% 0.0390 227.56)",
+          "oklch(49% 0.0390 227.56)",
+          "oklch(61% 0.0390 227.56)",
+          "oklch(72% 0.0390 227.56)",
+          "oklch(84% 0.0390 227.56)",
+          "oklch(95% 0.0390 227.56)"
+        ]
+      },
+      "bone-white": {
+        "role": "neutral",
+        "displayName": "骨白",
+        "tonalRamp": [
+          "oklch(15% 0.0143 148.77)",
+          "oklch(26% 0.0143 148.77)",
+          "oklch(38% 0.0143 148.77)",
+          "oklch(49% 0.0143 148.77)",
+          "oklch(61% 0.0143 148.77)",
+          "oklch(72% 0.0143 148.77)",
+          "oklch(84% 0.0143 148.77)",
+          "oklch(95% 0.0143 148.77)"
+        ]
+      },
+      "muted-tide": {
+        "role": "neutral",
+        "displayName": "退潮灰绿",
+        "tonalRamp": [
+          "oklch(15% 0.0254 187.16)",
+          "oklch(26% 0.0254 187.16)",
+          "oklch(38% 0.0254 187.16)",
+          "oklch(49% 0.0254 187.16)",
+          "oklch(61% 0.0254 187.16)",
+          "oklch(72% 0.0254 187.16)",
+          "oklch(84% 0.0254 187.16)",
+          "oklch(95% 0.0254 187.16)"
+        ]
+      },
+      "cold-jade": {
+        "role": "primary",
+        "displayName": "冷玉",
+        "tonalRamp": [
+          "oklch(15% 0.0755 168.95)",
+          "oklch(26% 0.0755 168.95)",
+          "oklch(38% 0.0755 168.95)",
+          "oklch(49% 0.0755 168.95)",
+          "oklch(61% 0.0755 168.95)",
+          "oklch(72% 0.0755 168.95)",
+          "oklch(84% 0.0755 168.95)",
+          "oklch(95% 0.0755 168.95)"
+        ]
+      },
+      "old-gold": {
+        "role": "secondary",
+        "displayName": "旧金",
+        "tonalRamp": [
+          "oklch(15% 0.0878 82.70)",
+          "oklch(26% 0.0878 82.70)",
+          "oklch(38% 0.0878 82.70)",
+          "oklch(49% 0.0878 82.70)",
+          "oklch(61% 0.0878 82.70)",
+          "oklch(72% 0.0878 82.70)",
+          "oklch(84% 0.0878 82.70)",
+          "oklch(95% 0.0878 82.70)"
+        ]
+      },
+      "title-bone": {
+        "role": "neutral",
+        "displayName": "标题骨白",
+        "tonalRamp": [
+          "oklch(15% 0.0349 98.09)",
+          "oklch(26% 0.0349 98.09)",
+          "oklch(38% 0.0349 98.09)",
+          "oklch(49% 0.0349 98.09)",
+          "oklch(61% 0.0349 98.09)",
+          "oklch(72% 0.0349 98.09)",
+          "oklch(84% 0.0349 98.09)",
+          "oklch(95% 0.0349 98.09)"
+        ]
+      },
+      "voyage-sage": {
+        "role": "primary",
+        "displayName": "航次鼠尾草",
+        "tonalRamp": [
+          "oklch(15% 0.0598 126.52)",
+          "oklch(26% 0.0598 126.52)",
+          "oklch(38% 0.0598 126.52)",
+          "oklch(49% 0.0598 126.52)",
+          "oklch(61% 0.0598 126.52)",
+          "oklch(72% 0.0598 126.52)",
+          "oklch(84% 0.0598 126.52)",
+          "oklch(95% 0.0598 126.52)"
+        ]
+      },
+      "voyage-sage-hover": {
+        "role": "primary",
+        "displayName": "航次鼠尾草悬停",
+        "tonalRamp": [
+          "oklch(15% 0.0548 122.13)",
+          "oklch(26% 0.0548 122.13)",
+          "oklch(38% 0.0548 122.13)",
+          "oklch(49% 0.0548 122.13)",
+          "oklch(61% 0.0548 122.13)",
+          "oklch(72% 0.0548 122.13)",
+          "oklch(84% 0.0548 122.13)",
+          "oklch(95% 0.0548 122.13)"
+        ]
+      },
+      "action-ink": {
+        "role": "neutral",
+        "displayName": "动作海墨",
+        "tonalRamp": [
+          "oklch(15% 0.0352 216.98)",
+          "oklch(26% 0.0352 216.98)",
+          "oklch(38% 0.0352 216.98)",
+          "oklch(49% 0.0352 216.98)",
+          "oklch(61% 0.0352 216.98)",
+          "oklch(72% 0.0352 216.98)",
+          "oklch(84% 0.0352 216.98)",
+          "oklch(95% 0.0352 216.98)"
+        ]
+      },
+      "secondary-sea": {
+        "role": "neutral",
+        "displayName": "次级海面",
+        "tonalRamp": [
+          "oklch(15% 0.0482 216.64)",
+          "oklch(26% 0.0482 216.64)",
+          "oklch(38% 0.0482 216.64)",
+          "oklch(49% 0.0482 216.64)",
+          "oklch(61% 0.0482 216.64)",
+          "oklch(72% 0.0482 216.64)",
+          "oklch(84% 0.0482 216.64)",
+          "oklch(95% 0.0482 216.64)"
+        ]
+      },
+      "secondary-bone": {
+        "role": "neutral",
+        "displayName": "次级骨白",
+        "tonalRamp": [
+          "oklch(15% 0.0234 157.55)",
+          "oklch(26% 0.0234 157.55)",
+          "oklch(38% 0.0234 157.55)",
+          "oklch(49% 0.0234 157.55)",
+          "oklch(61% 0.0234 157.55)",
+          "oklch(72% 0.0234 157.55)",
+          "oklch(84% 0.0234 157.55)",
+          "oklch(95% 0.0234 157.55)"
+        ]
+      },
+      "secondary-border": {
+        "role": "neutral",
+        "displayName": "次级边线",
+        "tonalRamp": [
+          "oklch(15% 0.0407 202.71)",
+          "oklch(26% 0.0407 202.71)",
+          "oklch(38% 0.0407 202.71)",
+          "oklch(49% 0.0407 202.71)",
+          "oklch(61% 0.0407 202.71)",
+          "oklch(72% 0.0407 202.71)",
+          "oklch(84% 0.0407 202.71)",
+          "oklch(95% 0.0407 202.71)"
+        ]
+      },
+      "field-sea": {
+        "role": "neutral",
+        "displayName": "表单海面",
+        "tonalRamp": [
+          "oklch(15% 0.0415 223.69)",
+          "oklch(26% 0.0415 223.69)",
+          "oklch(38% 0.0415 223.69)",
+          "oklch(49% 0.0415 223.69)",
+          "oklch(61% 0.0415 223.69)",
+          "oklch(72% 0.0415 223.69)",
+          "oklch(84% 0.0415 223.69)",
+          "oklch(95% 0.0415 223.69)"
+        ]
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "表单边线",
+        "tonalRamp": [
+          "oklch(15% 0.0354 217.35)",
+          "oklch(26% 0.0354 217.35)",
+          "oklch(38% 0.0354 217.35)",
+          "oklch(49% 0.0354 217.35)",
+          "oklch(61% 0.0354 217.35)",
+          "oklch(72% 0.0354 217.35)",
+          "oklch(84% 0.0354 217.35)",
+          "oklch(95% 0.0354 217.35)"
+        ]
+      },
+      "life-jade": {
+        "role": "primary",
+        "displayName": "生命玉",
+        "tonalRamp": [
+          "oklch(15% 0.0827 161.39)",
+          "oklch(26% 0.0827 161.39)",
+          "oklch(38% 0.0827 161.39)",
+          "oklch(49% 0.0827 161.39)",
+          "oklch(61% 0.0827 161.39)",
+          "oklch(72% 0.0827 161.39)",
+          "oklch(84% 0.0827 161.39)",
+          "oklch(95% 0.0827 161.39)"
+        ]
+      },
+      "energy-blue": {
+        "role": "secondary",
+        "displayName": "能量冰蓝",
+        "tonalRamp": [
+          "oklch(15% 0.0639 218.41)",
+          "oklch(26% 0.0639 218.41)",
+          "oklch(38% 0.0639 218.41)",
+          "oklch(49% 0.0639 218.41)",
+          "oklch(61% 0.0639 218.41)",
+          "oklch(72% 0.0639 218.41)",
+          "oklch(84% 0.0639 218.41)",
+          "oklch(95% 0.0639 218.41)"
+        ]
+      },
+      "rage-gold": {
+        "role": "secondary",
+        "displayName": "狂暴金",
+        "tonalRamp": [
+          "oklch(15% 0.0924 86.21)",
+          "oklch(26% 0.0924 86.21)",
+          "oklch(38% 0.0924 86.21)",
+          "oklch(49% 0.0924 86.21)",
+          "oklch(61% 0.0924 86.21)",
+          "oklch(72% 0.0924 86.21)",
+          "oklch(84% 0.0924 86.21)",
+          "oklch(95% 0.0924 86.21)"
+        ]
+      },
+      "injury-coral": {
+        "role": "secondary",
+        "displayName": "受伤珊瑚",
+        "tonalRamp": [
+          "oklch(15% 0.0979 34.74)",
+          "oklch(26% 0.0979 34.74)",
+          "oklch(38% 0.0979 34.74)",
+          "oklch(49% 0.0979 34.74)",
+          "oklch(61% 0.0979 34.74)",
+          "oklch(72% 0.0979 34.74)",
+          "oklch(84% 0.0979 34.74)",
+          "oklch(95% 0.0979 34.74)"
+        ]
+      },
+      "threat-red": {
+        "role": "secondary",
+        "displayName": "警戒红",
+        "tonalRamp": [
+          "oklch(15% 0.1551 26.13)",
+          "oklch(26% 0.1551 26.13)",
+          "oklch(38% 0.1551 26.13)",
+          "oklch(49% 0.1551 26.13)",
+          "oklch(61% 0.1551 26.13)",
+          "oklch(72% 0.1551 26.13)",
+          "oklch(84% 0.1551 26.13)",
+          "oklch(95% 0.1551 26.13)"
+        ]
+      },
+      "recovery-mint": {
+        "role": "secondary",
+        "displayName": "回气薄荷",
+        "tonalRamp": [
+          "oklch(15% 0.0704 167.10)",
+          "oklch(26% 0.0704 167.10)",
+          "oklch(38% 0.0704 167.10)",
+          "oklch(49% 0.0704 167.10)",
+          "oklch(61% 0.0704 167.10)",
+          "oklch(72% 0.0704 167.10)",
+          "oklch(84% 0.0704 167.10)",
+          "oklch(95% 0.0704 167.10)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "书法名称",
+        "purpose": "首页名称及有仪式感的猎手、暂停、结算标题。"
+      },
+      "headline": {
+        "displayName": "面板标题",
+        "purpose": "无衬线面板页标题。"
+      },
+      "title": {
+        "displayName": "分区标题",
+        "purpose": "正文分区层级。"
+      },
+      "body": {
+        "displayName": "说明正文",
+        "purpose": "任务、物种与设置说明。"
+      },
+      "label": {
+        "displayName": "功能标签",
+        "purpose": "紧凑说明、属性与 HUD 标签。"
+      },
+      "action": {
+        "displayName": "行动文字",
+        "purpose": "主要和次级行动。"
+      },
+      "threat-label": {
+        "displayName": "攻击预警",
+        "purpose": "蓄力秒数、锁定、攻击中和离屏来袭提示；深海描边与状态文字共同保证识别。"
+      }
+    },
+    "shadows": [
+      {
+        "name": "primary-action",
+        "value": "0 7px 25px #00151f40",
+        "purpose": "浅色行动与海域分离。"
+      },
+      {
+        "name": "display-ambient",
+        "value": "0 5px 22px #00141b70",
+        "purpose": "书法标题可读性。"
+      },
+      {
+        "name": "toast",
+        "value": "0 6px 24px #02162055",
+        "purpose": "即时反馈层次。"
+      },
+      {
+        "name": "hud-text",
+        "value": "0 1px 4px #00141b",
+        "purpose": "紧凑 HUD 文字可读性。"
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-world",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "源代码声明的缓动，按实际组件需要使用。"
+      },
+      {
+        "name": "control-transition",
+        "value": "background 0.2s, color 0.2s, opacity 0.2s",
+        "purpose": "按钮和选择框状态。"
+      },
+      {
+        "name": "meter-transition",
+        "value": "transform 0.12s linear",
+        "purpose": "HUD 槽条缩放。"
+      },
+      {
+        "name": "toast-transition",
+        "value": "opacity 0.25s, transform 0.25s",
+        "purpose": "底部 toast 淡入和短距离上移。"
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce → transition: none !important",
+        "purpose": "系统减少动态效果时取消界面过渡。"
+      },
+      {
+        "name": "swim-orientation",
+        "value": "Euler YZX → quaternion; Ry = facing < 0 ? π : 0; pitch = -asin(sin(angle)); rotateTowards(target, dt * 15)",
+        "purpose": "左右三维转身与俯仰平滑；保持背鳍向上，禁止负 scale.y 镜像翻面。"
+      },
+      {
+        "name": "swim-tail",
+        "value": "speed smoothing: 1 - exp(-dt * 8); phase += dt * (3.5 + min(80, speed) * 0.15); tail Y amplitude: 0.07 + clamp(speed / 35, 0, 1) * 0.29",
+        "purpose": "速度越高，摆尾频率和幅度越大；暂停 dt=0，姿态不回写碰撞或捕食状态。"
+      },
+      {
+        "name": "threat-timing",
+        "value": "ordinary: 0.70s / 0.76s; eliteRam: 1.00s; eliteAmbush: 1.05s; final direction lock: 0.22s / 0.25s (eliteAmbush)",
+        "purpose": "AI 与预警共用 attackProfile；最后锁定后不重新瞄准。首领、鱼叉、水雷保留各自同源配置。"
+      },
+      {
+        "name": "threat-stages",
+        "value": "preparing → locked → attacking → recover",
+        "purpose": "蓄力虚线与倒计时；锁定变实线；攻击加粗及增强透明填充；非首领回气显示薄荷虚线与反击提示。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "touch-or-tablet",
+        "value": "(pointer: coarse), (max-width: 1024px)"
+      },
+      {
+        "name": "short-landscape",
+        "value": "(max-height: 570px) and (orientation: landscape)"
+      },
+      {
+        "name": "narrow-landscape",
+        "value": "(max-width: 740px) and (orientation: landscape)"
+      },
+      {
+        "name": "portrait-pause",
+        "value": "(orientation: portrait) and (max-width: 1024px)"
+      },
+      {
+        "name": "compact-threat-overlay",
+        "value": "height < 500px (projection bounds); max-height: 500px (11px warning labels)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "航次主行动",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "启程、继续航次与确认选择；旧金焦点，鼠尾草实底。",
+      "html": "<button class=\"ds-primary\">启程 · 目标探索<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></button>",
+      "css": ".ds-primary{font-family:\"Microsoft YaHei\", \"PingFang SC\", sans-serif;font-size:16px;min-height:52px;padding:14px 20px;border-radius:3px;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:24px;transition:background .2s,color .2s,opacity .2s;border:0;background:#c4d6ac;color:#122d34;box-shadow:0 7px 25px #00151f40}.ds-primary svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.ds-primary:hover:not(:disabled){background:#dae7bf;color:#0a252b}.ds-primary:active{transform:translateY(1px)}.ds-primary:disabled{opacity:.4;cursor:not-allowed}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-icon:focus-visible,.ds-nav button:focus-visible,.ds-tabs button:focus-visible,.ds-field select:focus-visible,.ds-range input:focus-visible{outline:2px solid var(--gold,#e7c688);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-secondary,.ds-icon,.ds-nav,.ds-tabs,.ds-field,.ds-range{transition:none!important}}"
+    },
+    {
+      "name": "次级航次行动",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "与继续行动并列的新航次、返回及备份操作。",
+      "html": "<button class=\"ds-secondary\">开始新的航次<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></button>",
+      "css": ".ds-secondary{font-family:\"Microsoft YaHei\", \"PingFang SC\", sans-serif;font-size:16px;min-height:52px;padding:14px 20px;border-radius:3px;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:24px;transition:background .2s,color .2s,opacity .2s;background:#153e48;color:#d2e3d8;border:1px solid #385b5e}.ds-secondary svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.ds-secondary:hover:not(:disabled){color:#fff}.ds-secondary:active{transform:translateY(1px)}.ds-secondary:disabled{opacity:.4;cursor:not-allowed}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-icon:focus-visible,.ds-nav button:focus-visible,.ds-tabs button:focus-visible,.ds-field select:focus-visible,.ds-range input:focus-visible{outline:2px solid var(--gold,#e7c688);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-secondary,.ds-primary,.ds-icon,.ds-nav,.ds-tabs,.ds-field,.ds-range{transition:none!important}}"
+    },
+    {
+      "name": "地图图标按钮",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "HUD 地图、暂停与面板返回使用 44px 方形控件。",
+      "html": "<button class=\"ds-icon\" aria-label=\"海域地图\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2ZM9 3v16m6-14v16\"/></svg></button>",
+      "css": ".ds-icon{display:grid;place-items:center;width:44px;height:44px;background:#0a2a36b0;border:1px solid #789b8c50;border-radius:4px;color:#cce0d5;cursor:pointer;transition:color .2s,opacity .2s}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.ds-icon:hover{color:#fff}.ds-icon:active{transform:translateY(1px)}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-icon:focus-visible,.ds-nav button:focus-visible,.ds-tabs button:focus-visible,.ds-field select:focus-visible,.ds-range input:focus-visible{outline:2px solid var(--gold,#e7c688);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-icon,.ds-primary,.ds-secondary,.ds-nav,.ds-tabs,.ds-field,.ds-range{transition:none!important}}"
+    },
+    {
+      "name": "港湾功能导航",
+      "kind": "nav",
+      "refersTo": "harbor-navigation",
+      "description": "紧凑文字功能入口，低矮横屏采用三列和至少 44px 操作高度。",
+      "html": "<nav class=\"ds-nav\" aria-label=\"港湾功能\"><button>鲨鱼与进化</button><button>装备</button><button>生物图鉴</button><button>游玩指南</button><button>设置</button><button>纪录</button></nav>",
+      "css": ".ds-nav{display:grid;grid-template-columns:repeat(3,1fr);gap:0 8px;max-width:370px}.ds-nav button{font-family:\"Microsoft YaHei\", \"PingFang SC\", sans-serif;border:0;background:none;color:#c0d1c7;min-height:44px;min-width:44px;padding:0 14px 0 0;text-align:left;font-size:13px;white-space:nowrap;cursor:pointer;transition:color .2s}.ds-nav button:hover{color:var(--gold,#e7c688)}.ds-nav button:active{transform:translateY(1px)}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-icon:focus-visible,.ds-nav button:focus-visible,.ds-tabs button:focus-visible,.ds-field select:focus-visible,.ds-range input:focus-visible{outline:2px solid var(--gold,#e7c688);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-nav,.ds-primary,.ds-secondary,.ds-icon,.ds-tabs,.ds-field,.ds-range{transition:none!important}}"
+    },
+    {
+      "name": "猎手选择标签",
+      "kind": "nav",
+      "description": "猎手、解锁说明与旧金选中底线组成简洁导航。",
+      "html": "<nav class=\"ds-tabs\" aria-label=\"选择猎手\"><button class=\"ds-selected\" aria-current=\"true\">影鳍<small>已解锁</small></button><button>逐电<small>已解锁</small></button></nav>",
+      "css": ".ds-tabs{display:flex;gap:12px}.ds-tabs button{font-family:\"Microsoft YaHei\", \"PingFang SC\", sans-serif;background:transparent;border:0;border-bottom:2px solid transparent;color:var(--muted,#abc2bf);padding:12px 16px;min-height:44px;font-size:20px;cursor:pointer;transition:background .2s,color .2s}.ds-tabs small{display:block;font-size:11px;margin-top:7px;color:#a8c2bd}.ds-tabs button.ds-selected{color:var(--gold,#e7c688);border-color:var(--gold,#e7c688);background:#153c4450}.ds-tabs button:hover{color:#fff}.ds-tabs button:active{transform:translateY(1px)}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-icon:focus-visible,.ds-nav button:focus-visible,.ds-tabs button:focus-visible,.ds-field select:focus-visible,.ds-range input:focus-visible{outline:2px solid var(--gold,#e7c688);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-tabs,.ds-selected,.ds-primary,.ds-secondary,.ds-icon,.ds-nav,.ds-field,.ds-range{transition:none!important}}"
+    },
+    {
+      "name": "画质选择字段",
+      "kind": "input",
+      "refersTo": "select-field",
+      "description": "设置使用清楚的原生表单控件，保留键盘焦点。",
+      "html": "<label class=\"ds-field\"><span>画质</span><select aria-label=\"画质\"><option>自适应</option><option>精细</option><option>省电</option></select></label>",
+      "css": ".ds-field{display:flex;align-items:center;gap:20px;font-family:\"Microsoft YaHei\", \"PingFang SC\", sans-serif;font-size:13px;color:#c9d9d0}.ds-field select{font:inherit;min-height:44px;background:#183742;border:1px solid #46626a;color:var(--paper,#e2ebe3);padding:8px;border-radius:3px;transition:background .2s,color .2s}.ds-field select:hover{border-color:var(--jade,#9cdec5)}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-icon:focus-visible,.ds-nav button:focus-visible,.ds-tabs button:focus-visible,.ds-field select:focus-visible,.ds-range input:focus-visible{outline:2px solid var(--gold,#e7c688);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-field,.ds-primary,.ds-secondary,.ds-icon,.ds-nav,.ds-tabs,.ds-range{transition:none!important}}"
+    },
+    {
+      "name": "反馈强度滑块",
+      "kind": "input",
+      "description": "原生滑块与相邻数值呈现特效、声音及触屏设置。",
+      "html": "<label class=\"ds-range\"><span>特效强度</span><input type=\"range\" min=\"0\" max=\"100\" value=\"70\" aria-label=\"特效强度\"><output>70%</output></label>",
+      "css": ".ds-range{display:flex;gap:20px;align-items:center;min-height:44px;font-family:\"Microsoft YaHei\", \"PingFang SC\", sans-serif;font-size:13px;color:#c9d9d0}.ds-range input{accent-color:var(--jade,#9cdec5);width:160px;min-width:40px}.ds-range output{width:40px;font-size:12px;font-variant-numeric:tabular-nums}.ds-primary:focus-visible,.ds-secondary:focus-visible,.ds-icon:focus-visible,.ds-nav button:focus-visible,.ds-tabs button:focus-visible,.ds-field select:focus-visible,.ds-range input:focus-visible{outline:2px solid var(--gold,#e7c688);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-range,.ds-primary,.ds-secondary,.ds-icon,.ds-nav,.ds-tabs,.ds-field{transition:none!important}}"
+    },
+    {
+      "name": "生命 HUD",
+      "kind": "custom",
+      "refersTo": "life-meter",
+      "description": "生命文字、当前值和厚条同时呈现生存状态。",
+      "html": "<div class=\"ds-vitals\"><div class=\"ds-vital-label\"><b>生命</b><span>115 / 150</span></div><div class=\"ds-meter\" role=\"meter\" aria-label=\"生命\" aria-valuemin=\"0\" aria-valuemax=\"150\" aria-valuenow=\"115\"><i></i></div></div>",
+      "css": ".ds-vitals{width:245px;font-family:\"Microsoft YaHei\", \"PingFang SC\", sans-serif;font-size:12px;text-shadow:0 1px 4px #00141b}.ds-vital-label{display:flex;justify-content:space-between;margin-bottom:7px}.ds-vital-label b{font-size:14px;color:#d5ebdb}.ds-vital-label span{font-variant-numeric:tabular-nums;color:#bad0c8}.ds-meter{height:12px;background:#0a1e28c0;border:1px solid #7ba79c55;border-radius:2px;overflow:hidden}.ds-meter i{display:block;height:100%;width:100%;background:#92d4b2;transform:scaleX(.7667);transform-origin:left center;transition:transform .12s linear}@media(prefers-reduced-motion:reduce){.ds-vitals,.ds-vital-label,.ds-meter{transition:none!important}}"
+    },
+    {
+      "name": "生物目标标识",
+      "kind": "custom",
+      "refersTo": "target-label",
+      "description": "局部海墨底、符号与短文字组成不依赖颜色的目标提示。",
+      "html": "<span class=\"ds-target\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3 22 21H2ZM12 9v5m0 3v1\"/></svg>危险 · 深海水母</span>",
+      "css": ".ds-target{display:inline-flex;align-items:center;gap:4px;font-family:\"Microsoft YaHei\", \"PingFang SC\", sans-serif;font-size:10px;white-space:nowrap;color:#e5d6a7;background:#0c2536a0;padding:3px 6px}.ds-target svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;width:12px;height:12px}@media(prefers-reduced-motion:reduce){.ds-target{transition:none!important}}"
+    },
+    {
+      "name": "攻击预警与反击窗口",
+      "kind": "custom",
+      "refersTo": "threat-warning",
+      "description": "同源攻击时序的 SVG 投影：红色通道、倒计时和离屏箭头；薄荷收招提示。此展示固定在蓄力阶段，实际环长与文本随攻击状态更新。",
+      "html": "<svg class=\"ds-threat\" viewBox=\"0 0 420 240\" role=\"img\" aria-label=\"蓄力 0.4 秒的攻击通道，离屏来袭箭头，与回气可反击提示\"><g class=\"ds-threat-zone\"><path d=\"M65 65H310V115H65Z\"/><path d=\"M235 78 249 90 235 102\" fill=\"none\"/></g><g class=\"ds-threat-source\"><ellipse cx=\"65\" cy=\"90\" rx=\"37\" ry=\"22\"/><circle cx=\"65\" cy=\"90\" r=\"32\" stroke-width=\"3\" stroke-dasharray=\"95 201\" transform=\"rotate(-90 65 90)\"/><text x=\"65\" y=\"43\" text-anchor=\"middle\">蓄力 0.4s</text></g><g class=\"ds-threat-edge\" transform=\"translate(370 90)\"><circle r=\"18\"/><path d=\"M-8 -7 9 0-8 7-4 0Z\"/><text y=\"34\" text-anchor=\"middle\">0.4s</text></g><g class=\"ds-threat-recover\"><ellipse cx=\"150\" cy=\"195\" rx=\"37\" ry=\"20\"/><text x=\"150\" y=\"162\" text-anchor=\"middle\">回气 · 可反击</text></g></svg>",
+      "css": ".ds-threat{width:420px;max-width:100%;height:auto;overflow:visible;pointer-events:none}.ds-threat-zone{stroke:#ff8177;stroke-width:1.8;fill:#f45f5918;stroke-dasharray:7 5}.ds-threat-source{stroke:#ff8177;stroke-width:2.5;fill:none}.ds-threat-edge circle{fill:#251d26;stroke:#ff8177;stroke-width:2}.ds-threat-edge path{fill:#ff8177}.ds-threat-source text,.ds-threat-edge text,.ds-threat-recover text{font:600 13px \"Microsoft YaHei\",sans-serif;fill:#ff8177;paint-order:stroke;stroke:#102631;stroke-width:4;stroke-linejoin:round}.ds-threat-recover ellipse{fill:none;stroke:#a5e1c8;stroke-width:1.5;stroke-dasharray:3 6}.ds-threat-recover text{fill:#a5e1c8;font-size:11px}@media(max-height:500px){.ds-threat-source text,.ds-threat-edge text{font-size:11px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "沉船上的航行记录",
+    "overview": "真实海域占据整个视野，界面像刻在沉船上的航行记录。用户固定的暗黑奇幻方向是视觉权威：沉没遗迹、发光生态与深海巨兽由实际 Three.js 场景呈现；海墨承托骨白文字，冷玉标识生命与生机，旧金指向狂暴、潮晶和关键状态。书法只用于有仪式感的名称，操作信息保持清楚、克制。\n\n体验以探索和行动为中心。港湾首页在左侧组织纵向操作，让右侧实时鲨鱼成为主体；这是一种首页表达，不是所有页面的固定模板。游玩中的 HUD 采用边缘分区、局部实底和文字阴影，中央空间留给侧视 2.5D 海域、猎手轮廓与危险预警。用户固定方向优先于探索用 seed `2fa555bd`。",
+    "keyCharacteristics": [
+      "暗黑奇幻海洋，冷色水体与有节制的生物微光。",
+      "实时三维生物、分面遗迹和侧视 2.5D 场景共同构成深度。",
+      "骨白书法名称与中文无衬线操作信息形成明确分工。",
+      "细边框、低圆角、局部半透明海墨底，减少遮挡。",
+      "港湾保留氛围；HUD 优先快速识别生命、目标与可执行动作。",
+      "鱼类自然转身并随速度摆尾；攻击以蓄力、锁定、出招、回气构成可读节奏。"
+    ],
+    "rules": [
+      {
+        "name": "The Signal Rule",
+        "body": "旧金和冷玉必须有状态含义；危险同时使用图形、文字或动作预警，不能只靠颜色。",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "名称可以书写，操作必须可读；不要把 Ma Shan Zheng 用于连续正文、计时器或生命数值。",
+        "section": "typography"
+      },
+      {
+        "name": "The Clear Water Rule",
+        "body": "HUD 的生命与任务在左、得分居中、暂停和地图在右；新增信息不得遮住玩家和当前威胁的主要行动区域。",
+        "section": "layout"
+      },
+      {
+        "name": "The World Carries Depth Rule",
+        "body": "让海域承担空间深度，界面阴影只服务可读性与状态反馈。",
+        "section": "elevation"
+      },
+      {
+        "name": "The Dorsal Up Rule",
+        "body": "左右转向必须在三维空间转身；禁止通过负的 `scale.y` 镜像翻面来改变朝向。",
+        "section": "elevation"
+      },
+      {
+        "name": "The Honest Telegraph Rule",
+        "body": "倒计时、锁定方向与范围必须对应真实攻击；锁定后不能在出招瞬间重新瞄准玩家。",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "**Do** 以用户确认的暗黑奇幻海洋为视觉权威，保留真实 Three.js 生物、遗迹与侧视 2.5D 空间。",
+      "**Do** 用骨白保证信息可读，用冷玉、旧金和图形共同表达状态。",
+      "**Do** 将名称放在角色称号之前，让主要行动、当前任务和生命值一眼可见。",
+      "**Do** 为操作保留清楚的焦点、禁用状态、SVG 图标和可访问名称。",
+      "**Do** 在低矮横屏保持已建立的至少 44px 控件高度，并验证安全区和滚动详情不会盖住主要行动。",
+      "**Do** 让鱼类平滑转身、背鳍朝上，摆尾强度随游速变化。",
+      "**Do** 用同源时序和形状呈现蓄力、锁定、攻击与回气，并用离屏箭头保留威胁方向。"
+    ],
+    "donts": [
+      "**Don't** 以 seed 随机方向覆盖已经确认的暗黑奇幻世界。",
+      "**Don't** 用静态海报替代实际游动的猎手，或用装饰面板挤占行动海域。",
+      "**Don't** 只靠颜色传达危险、可交互状态或完成状态。",
+      "**Don't** 把书法用于连续操作说明和动态数字，或让高频特效掩盖轮廓和预警。",
+      "**Don't** 将单次截图中的裁切或暂态当作系统规范。",
+      "**Don't** 使用负的 `scale.y` 令鱼类上下翻面，或让视觉动画改变实际碰撞和捕食状态。",
+      "**Don't** 在锁定后重新瞄准，或显示与真实伤害方向、范围、时序不一致的攻击预警。"
+    ]
+  }
+}

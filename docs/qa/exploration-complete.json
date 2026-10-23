@@ -1,0 +1,156 @@
+{
+  "exploration": {
+    "found": [
+      "garden",
+      "coral",
+      "hold",
+      "bones",
+      "court",
+      "icepass",
+      "whalesong",
+      "bell"
+    ],
+    "completed": [
+      "coral",
+      "hold",
+      "court",
+      "icepass"
+    ],
+    "steps": {
+      "coral": 3,
+      "hold": 2,
+      "icepass": 3,
+      "court": 3
+    },
+    "anchors": [
+      "hold-0",
+      "hold-1"
+    ],
+    "claims": [
+      "coral",
+      "garden",
+      "enc:rescue",
+      "hold",
+      "bones",
+      "court",
+      "icepass",
+      "whalesong",
+      "enc:messenger",
+      "bell"
+    ],
+    "encounters": [
+      "rescue",
+      "messenger"
+    ],
+    "seenEncounters": [
+      "rescue",
+      "messenger"
+    ],
+    "tracked": "coral"
+  },
+  "version": 1,
+  "currency": 454,
+  "selected": "reef",
+  "unlocked": [
+    "reef"
+  ],
+  "upgrades": {},
+  "equipment": [],
+  "owned": [],
+  "skins": [
+    "natural",
+    "explorer"
+  ],
+  "skin": "explorer",
+  "discovered": [
+    "sprat",
+    "tuna",
+    "net",
+    "angler",
+    "ray"
+  ],
+  "completed": [
+    "first",
+    "chase"
+  ],
+  "records": {},
+  "settings": {
+    "music": 0.32,
+    "sfx": 0.65,
+    "effects": 0.7,
+    "flash": true,
+    "vibration": true,
+    "touchSize": 1,
+    "touchOpacity": 0.8,
+    "mouse": false,
+    "noHunger": false,
+    "quality": "auto"
+  },
+  "checkpoint": {
+    "mode": "voyage",
+    "shark": "reef",
+    "stats": {
+      "time": 156.28333333334984,
+      "score": 1012,
+      "eaten": 19,
+      "boostEaten": 5,
+      "fishTypes": [
+        "sprat",
+        "tuna",
+        "angler",
+        "ray"
+      ],
+      "maxCombo": 7,
+      "leaps": 0,
+      "nets": 1,
+      "wreck": 0,
+      "cave": 0,
+      "iceTime": 40.8333333333323,
+      "frenzy": 0,
+      "frenzyKills": 0,
+      "elites": 0,
+      "boss": 0,
+      "distance": 4169.117192451884,
+      "treasures": 0,
+      "relic": 0,
+      "paidScore": 0,
+      "runCounted": false,
+      "currency": 374,
+      "visited": [
+        "bay",
+        "wreck",
+        "deep",
+        "ice"
+      ],
+      "claims": [
+        "region:bay",
+        "region:wreck",
+        "task:first",
+        "region:deep",
+        "task:chase",
+        "region:ice"
+      ]
+    },
+    "treasures": [],
+    "broken": [
+      "gate",
+      "exp-gate-coral",
+      "exp-gate-hold",
+      "exp-hold-floor",
+      "exp-ice-exit",
+      "exp-gate-icepass",
+      "exp-gate-court"
+    ],
+    "elites": [],
+    "x": 350,
+    "y": 145,
+    "hp": 120,
+    "xp": 729,
+    "growth": 1,
+    "stage": 2,
+    "charge": 90.42499999999995,
+    "seed": 76978142
+  },
+  "wins": 0,
+  "runs": 0
+}

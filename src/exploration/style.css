@@ -1,0 +1,318 @@
+/* 延续暗海、骨白与潮玉；记录页按海域排列，中央海域仍承担探索体验。 */
+.exploration-journal {
+  max-width: 1120px;
+  margin: 0 auto 40px;
+}
+.exploration-summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+  align-items: center;
+  margin: 24px 0 32px;
+}
+.exploration-summary p {
+  max-width: 56ch;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.exploration-totals {
+  display: flex;
+  gap: 24px;
+  white-space: nowrap;
+}
+.exploration-totals span {
+  display: grid;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.exploration-totals b {
+  font-size: 22px;
+  color: var(--paper);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+.expedition-row {
+  display: grid;
+  grid-template-columns: 64px 1fr 120px;
+  gap: 24px;
+  align-items: center;
+  padding: 26px 0;
+  border-top: 1px solid #74959838;
+}
+.expedition-stamp {
+  color: #6a898e;
+}
+.expedition-stamp.earned {
+  color: var(--stamp-color);
+}
+.expedition-stamp svg {
+  display: block;
+  width: 54px;
+  height: 54px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.expedition-copy h2 {
+  margin: 0 0 8px;
+  font-size: 25px;
+}
+.expedition-copy p {
+  margin: 7px 0 0;
+  line-height: 1.6;
+  max-width: 70ch;
+  font-size: 14px;
+}
+.expedition-copy .expedition-region {
+  color: #adc6c6;
+  font-size: 12px;
+}
+.expedition-copy .expedition-clue {
+  color: #9ab7bb;
+  font-size: 13px;
+}
+.expedition-track {
+  min-height: 44px;
+}
+.exploration-foot {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 54px;
+  margin-top: 36px;
+}
+.exploration-foot h2,
+.exploration-reward h2 {
+  font-size: 24px;
+  margin: 0 0 15px;
+}
+.landmark-list > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  padding: 14px 0;
+  border-top: 1px solid #74959838;
+}
+.landmark-list span {
+  font-size: 14px;
+}
+.landmark-list small {
+  display: block;
+  color: #a6bdc2;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+.landmark-list button {
+  flex-shrink: 0;
+  min-width: 64px;
+  min-height: 44px;
+  color: #a9d7dd;
+  border-bottom: 1px solid #496a72;
+  padding: 5px 8px;
+}
+.exploration-reward {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+  border-top: 1px solid #74959838;
+  margin-top: 32px;
+  padding-top: 26px;
+}
+.exploration-reward p {
+  max-width: 65ch;
+  color: #adc5c9;
+  line-height: 1.7;
+  font-size: 14px;
+}
+.exploration-reward .primary {
+  min-width: 180px;
+  min-height: 48px;
+}
+.pause-paired {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.pause-paired button {
+  min-height: 44px;
+}
+.map-exploration {
+  min-height: 44px;
+  padding: 8px 16px;
+  margin: 4px 0 16px;
+}
+#exploration-hud {
+  position: absolute;
+  left: 28px;
+  top: 280px;
+  width: 248px;
+  text-align: left;
+  pointer-events: auto;
+  padding: 12px 0;
+  border-top: 1px solid #5d929a;
+  color: #b4e2e5;
+}
+#exploration-hud span {
+  display: block;
+  font-size: 11px;
+  color: #a4c2c5;
+}
+#exploration-hud b {
+  display: block;
+  margin-top: 7px;
+  font-size: 17px;
+  font-weight: 500;
+}
+#exploration-hud small {
+  display: block;
+  margin-top: 6px;
+  line-height: 1.6;
+  font-size: 12px;
+  color: #c2d9d7;
+}
+#exploration-marker {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+}
+#exploration-marker > div {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #abe3ec;
+  text-align: center;
+  font-size: 11px;
+  text-shadow: 0 2px 4px #08202b;
+}
+#exploration-marker svg {
+  width: 21px;
+  height: 21px;
+  display: block;
+  margin: auto;
+  fill: #0d3543;
+  stroke: #abe3ec;
+  stroke-width: 1.7;
+}
+#exploration-marker span {
+  display: block;
+  white-space: nowrap;
+  margin-top: 5px;
+}
+#exploration-marker .exploration-ring {
+  width: 32px;
+  height: 32px;
+  border: 1.5px solid #ace1e5;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px #081c2944;
+}
+.overlay-open #exploration-hud,
+.overlay-open #exploration-marker {
+  visibility: hidden;
+}
+@media (max-width: 1050px) {
+  .exploration-summary {
+    align-items: flex-start;
+  }
+  .exploration-totals {
+    gap: 16px;
+  }
+  .expedition-row {
+    grid-template-columns: 54px 1fr 108px;
+    gap: 18px;
+  }
+  .exploration-foot {
+    gap: 30px;
+  }
+}
+@media (max-height: 500px) and (orientation: landscape) {
+  #exploration-hud {
+    left: 18px;
+    top: 181px;
+    width: 188px;
+    padding: 8px 0;
+  }
+  #exploration-hud span {
+    font-size: 10px;
+  }
+  #exploration-hud b {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  #exploration-hud small {
+    font-size: 10px;
+    line-height: 1.45;
+    margin-top: 4px;
+  }
+  .exploration-summary {
+    margin: 14px 0;
+    gap: 20px;
+  }
+  .exploration-summary p {
+    font-size: 12px;
+    max-width: 42ch;
+  }
+  .exploration-totals {
+    gap: 12px;
+  }
+  .exploration-totals b {
+    font-size: 17px;
+  }
+  .expedition-row {
+    padding: 18px 0;
+    grid-template-columns: 42px 1fr 100px;
+    gap: 15px;
+  }
+  .expedition-stamp svg {
+    width: 38px;
+    height: 38px;
+  }
+  .expedition-copy h2 {
+    font-size: 22px;
+  }
+  .expedition-copy p {
+    font-size: 12px;
+  }
+  .expedition-copy .expedition-clue {
+    font-size: 11px;
+  }
+  .exploration-foot h2,
+  .exploration-reward h2 {
+    font-size: 21px;
+  }
+  .landmark-list span,
+  .exploration-reward p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .exploration-summary {
+    display: block;
+  }
+  .exploration-totals {
+    margin-top: 16px;
+  }
+  .expedition-row {
+    grid-template-columns: 42px 1fr;
+    gap: 14px;
+  }
+  .expedition-track {
+    grid-column: 2;
+    justify-self: start;
+    min-width: 120px;
+  }
+  .expedition-stamp svg {
+    width: 38px;
+    height: 38px;
+  }
+  .exploration-foot {
+    grid-template-columns: 1fr;
+  }
+  .exploration-reward {
+    display: block;
+  }
+  .exploration-reward button {
+    margin-top: 10px;
+  }
+}
