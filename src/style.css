@@ -1396,12 +1396,8 @@ dd {
   }
 }
 @media (pointer: coarse), (max-width: 1024px) {
-  #touch-controls {
-    display: block;
-  }
-  .desktop-only {
-    display: none !important;
-  }
+
+
   .home-content {
     left: 6%;
     width: 340px;
@@ -1992,7 +1988,7 @@ dd {
     padding-right: 25px;
   }
 }
-@media (orientation: portrait) and (max-width: 1024px) {
+@media (orientation: portrait) and (pointer: coarse) {
   #orientation {
     display: grid;
   }
@@ -2172,5 +2168,16 @@ dd {
   }
   .role-name {
     margin-bottom: 10px;
+  }
+}
+
+/* Input UI follows the primary pointer, never the width of an embedded frame.
+   The responsive layout above still adapts to narrow desktop windows. */
+@media (pointer: coarse) {
+  #touch-controls {
+    display: block;
+  }
+  .desktop-only {
+    display: none !important;
   }
 }

@@ -98,7 +98,8 @@ export class UI {
       }
     });
     window.addEventListener("resize", () => {
-      if (innerHeight > innerWidth && game.phase === "playing") {
+      // A narrow desktop frame is not a rotated touch device.
+      if (matchMedia("(pointer: coarse)").matches && innerHeight > innerWidth && game.phase === "playing") {
         game.pause();
         this.open("pause");
       }
