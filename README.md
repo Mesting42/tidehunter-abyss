@@ -95,3 +95,14 @@ npm run preview
 探索扩展另用初始影礁、无强化与装备实际完成 **8 / 8 发现、4 / 4 印记、2 / 2 遭遇**，验证新外观穿戴、支线开门、真实捷径、旧档迁移与刷新保留，完整验收备份单独存于文档目录。后续已按用户选择加入 60° 上下斜游姿态、尾部跟随与显示嘴部校准；当前自动测试总计 **39 项通过**。本次姿态试游使用独立训练，保留现有航次存档。
 
 桌面、平板、手机横屏已在浏览器中调整视口并实际操作。**这不等于已经测试实体 iPhone、Android 平板或 Safari**；具体尺寸与限制见测试报告。
+
+<!-- pixel-pier-game-listing:start -->
+## Game listing / 游戏展示
+
+- **Game developer / 游戏开发者:** Mest ([@Mesting42](https://github.com/Mesting42))
+- **Pixel Pier listing / 游戏展示页面:** [Tidehunter: Abyss Voyage](https://riverglint.link/games/tidehunter-abyss/)
+
+This game is listed on Pixel Pier with a play entry and game guide. This link identifies a game-development and listing relationship; it does not identify the developer as the website operator or operating entity.
+
+本游戏在 Pixel Pier 展示，并提供游玩入口与游戏指南。此链接仅表示游戏开发与展示关联，不代表开发者是该网站的运营者或运营主体。
+<!-- pixel-pier-game-listing:end -->
